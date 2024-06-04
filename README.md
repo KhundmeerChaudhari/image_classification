@@ -28,7 +28,7 @@ The project consists of three main parts:
 
 ### Model Training
 
-- The `train_svm.py` script preprocesses the dataset, splits it into training and testing sets, and trains an SVM model.
+- The `train_svm.ipynb` script preprocesses the dataset, splits it into training and testing sets, and trains an SVM model.
 - The SVM model is trained using the Radial Basis Function (RBF) kernel with hyperparameter C=0.5 and degree=1.
 - The trained model is saved as `model.sav` using joblib.
 
